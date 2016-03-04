@@ -1,0 +1,60 @@
+body {
+	background: red;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'arial', Segoe UI;
+}
+button {
+	background: white;
+	border: 0;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	width: 140px;
+	border-radius: 5px;
+}
+button:active {
+  background: green;
+
+}
+h1 {
+	font-size: 70px;
+}
+input {
+	border: 0;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+  width: 20px
+}
+.calc {
+	background: black;
+	color: white;
+	padding: 15px;
+	position: relative;
+}
+#results{
+	color: blue;
+	font-size: 24px;
+	margin: 10px;
+	line-height: 25px;
+}
+#results:hover{
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.vect {
+	display: block;
+	font-size: 24px;
+	color: #C5EBFE;
+	margin: 10px;
+}
+.vect > p {
+	font-weight: bold;
+}
